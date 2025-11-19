@@ -28,6 +28,10 @@ npm run build
 
 Open Claude Desktop and start prompting Claude to do things onchain! For example, ask it to print your wallet details.
 
+## Using with MCP Debuggers (MCP Jam, etc.)
+
+This MCP server can also be used with MCP debuggers like MCP Jam. See `mcp_debugger_config.example.json` for an example configuration. Make sure to set all required environment variables in your debugger's configuration.
+
 ## Configuring Your Agent
 
 You can [modify your configuration](https://github.com/coinbase/agentkit/tree/main/typescript/agentkit#usage) of the agent. By default, your agentkit configuration occurs in the `./src/getAgentKit.ts` file, and agent instantiation + server setup occurs in the `./src/index.ts` file.

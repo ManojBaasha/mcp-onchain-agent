@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "agentkit": {
+      "command": "node",
+      "args": ["/path/to/mcp-onchain-agent/build/index.js"],
+      "env": {
+        "CDP_API_KEY_ID": "your-cdp-api-key-id",
+        "CDP_API_KEY_SECRET": "your-cdp-api-key-secret",
+        "CDP_WALLET_SECRET": "your-cdp-wallet-secret",
+        "NETWORK_ID": "base-sepolia",
+        "ADDRESS": "0xYourWalletAddress",
+        "OWNER_ADDRESS": "",
+        "PAYMASTER_URL": "https://api.developer.coinbase.com/rpc/v1/base/YourPaymasterId",
+        "RPC_URL": "https://sepolia.base.org",
+        "IDEMPOTENCY_KEY": ""
+      }
+    }
+  }
+}
+
